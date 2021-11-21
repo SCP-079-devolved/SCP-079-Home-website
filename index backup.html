@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  </head>
+
+  <body>
+
+    	<header class="header">
+		<h1 class="logo"><img src="https://cdn.discordapp.com/attachments/807528322544304148/908967347677700106/SCP-079.png"      width="70" 
+     height="70"/></h1>
+    <h5> Website Version: Alpha 0.2.0 </h5>
+      <ul class="main-nav">
+          <li><a href="templates/index.php">Home</a></li>
+          <li><a href="templates/socialmedia.php">Our social media's</a></li>
+          <li><div class="dropdown">
+                <button class="dropbtn">Dropdown
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+          </li>
+      </ul>
+	  </header>
+
+    <h1> SCP-079 </h1>
+    <h3>  We are going public in Febuary 2022(current estimate) <br />  <a href="https://discord.gg/xDJQR58vgf">Check out our discord server!</a></h3>
+
+    <section> 
+      <h2> About SCP-079 </h2>
+    </section>
+
+		<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/scp_079devolved"><i class="fa fa-twitter"></i></a>
+        <a href="https://twitter.com/scp_079devolved"><img src="https://icons-for-free.com/iconfiles/png/512/logo+twitter+twitter+logo+icon-1320195954955224762.png" alt="Twitter" 
+              width="40" height="40" margin="0"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="#">Home</a>
+
+					<a href="#">Blog</a>
+
+					<a href="#">Pricing</a>
+
+					<a href="#">About</a>
+
+					<a href="#">Faq</a>
+
+					<a href="#">Contact</a>
+				</p>
+
+				<p>Apraxed Bots &copy; 2021</p>
+			</div>
+
+		</footer>
+
+    <style>
+     
+     
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        min-height: 100vh;
+      }
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+
+      h1,
+      h2,
+      h3,
+      h5,
+      a {
+        color: #34495e;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      h3 {
+        text-align: center;
+      }
+
+      a {
+        text-decoration: none;
+        color: blue;
+      }
+
+      /* footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(43, 46, 43, 0.6);
+        color: white;
+        text-align: center;
+      } */
+
+
+
+      .logo {
+        margin: 0;
+        margin-left: 50;
+        font-size: 1.45em;
+      }
+
+      .main-nav {
+        margin-top: 5px;
+        margin-right: 55px;
+
+      }
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+
+      /* Dropdown button */
+      .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: #34495e;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit; /* Important for vertical align on mobile phones */
+        margin: 0; /* Important for vertical align on mobile phones */
+      }
+      .dropdown:hover .dropbtn {
+        color: #718daa;
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      /* Add a grey background color to dropdown links on hover */
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .logo a,
+      .main-nav a {
+        padding: 10px 15px;
+        text-transform: uppercase;
+        text-align: center;
+        display: block;
+      }
+
+      .main-nav a {
+        color: #34495e;
+        font-size: .99em;
+      }
+
+      .main-nav a:hover {
+        color: #718daa;
+      }
+
+
+
+      .header {
+        padding-top: .5em;
+        padding-bottom: .5em;
+        border: 1px solid #a2a2a2;
+        background-color: #f4f4f4;
+        -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+      }
+
+
+      /* ================================= 
+        Media Queries
+      ==================================== */
+
+
+
+
+      @media (min-width: 769px) {
+        .header,
+        .main-nav {
+          display: flex;
+        }
+        .header {
+          flex-direction: column;
+          align-items: center;
+            .header{
+          width: 80%;
+          margin: 0 auto;
+          max-width: 1150px;
+        }
+        }
+
+      }
+
+      @media (min-width: 1025px) {
+        .header {
+          flex-direction: row;
+          justify-content: space-between;
+        }
+
+      }
+
+
+      //  footer css below here
+
+      @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+      * {
+        font-family: Roboto;
+      }
+
+      section {
+        width: 100%;
+        display: inline-block;
+        background: white;
+        height: 60vh;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .footer-distributed {
+        background-color: #292c2f;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: normal 16px sans-serif;
+        padding: 45px 50px;
+      }
+
+      .footer-distributed .footer-left p {
+        color: #8f9296;
+        font-size: 14px;
+        margin: 0;
+      }
+      /* Footer links */
+
+      .footer-distributed p.footer-links {
+        font-size: 18px;
+        font-weight: bold;
+        color: #ffffff;
+        margin: 0 0 10px;
+        padding: 0;
+        transition: ease .25s;
+      }
+
+      .footer-distributed p.footer-links a {
+        display: inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color: inherit;
+        transition: ease .25s;
+      }
+
+      .footer-distributed .footer-links a:before {
+        content: "·";
+        font-size: 20px;
+        left: 0;
+        color: #fff;
+        display: inline-block;
+        padding-right: 5px;
+      }
+
+      .footer-distributed .footer-links .link-1:before {
+        content: none;
+      }
+
+      .footer-distributed .footer-right {
+        float: right;
+        margin-top: 6px;
+        max-width: 180px;
+      }
+
+      .footer-distributed .footer-right a {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        background-color: #33383b;
+        border-radius: 2px;
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+        margin-left: 3px;
+        transition:all .25s;
+      }
+
+      .footer-distributed .footer-right a:hover{transform:scale(1.1); -webkit-transform:scale(1.1);}
+
+      .footer-distributed p.footer-links a:hover{text-decoration:underline;}
+
+      /* Media Queries */
+
+      @media (max-width: 600px) {
+        .footer-distributed .footer-left, .footer-distributed .footer-right {
+          text-align: center;
+        }
+        .footer-distributed .footer-right {
+          float: none;
+          margin: 0 auto 20px;
+        }
+        .footer-distributed .footer-left p.footer-links {
+          line-height: 1.8;
+        }
+      }
+
+
+ 
+    </style>
+
+    <script>
+     
+    </script>
+  </body>
+</html>
+
+<!--hi-->
