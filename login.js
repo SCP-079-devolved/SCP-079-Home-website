@@ -11,7 +11,7 @@ const loginForm = document.getElementById("login-form");
         if (username === "Bot dev" && password === "@079") {
                 alert("You have successfully logged in.");
                 location.reload();
-                window.location.replace("adminpanel.html");
+                window.location.replace("controlpanel.html");
             }
         else if (username !== "Bot dev" && password === "@079") {
                 alert("You just entered wrong username... Try again")
