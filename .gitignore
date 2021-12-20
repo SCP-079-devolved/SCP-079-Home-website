@@ -1,6 +1,6 @@
 workspace.code-workspace
 cover.html
-CSS\cover.css
+CSS/cover.css
 passwords.json
-CSS\bootstrap.min.css
-JS\cover.js
+CSS/bootstrap.min.css
+JS/cover.js
