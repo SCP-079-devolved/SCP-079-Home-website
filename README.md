@@ -1,3 +1,7 @@
+# Big important news:
+Right now I(Carnoval15) deployed the site also to https://scp079.netlify.app , pls visit the site and report if there's any problems with it, if testing went well I'd make it official webpage URL!
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/dcf8ebbe-0af8-4adb-b52c-e9821af14d3b/deploy-status)](https://app.netlify.com/sites/scp079/deploys)
 # SCP-079-Home-website
 This website will show of what SCP-079 can really do in action! To have more info about what 079 really is, go to the organization and select 079's repository
 ## Donations!
