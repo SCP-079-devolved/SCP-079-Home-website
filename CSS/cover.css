@@ -364,11 +364,11 @@ body .footer .content > div .image {
 .facebook:hover .social {
   color: #3b5998;
 }
-.google:hover .circle {
+.github:hover .circle {
   fill: #000000;
   fill-opacity: 1;
-  -webkit-animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorGoogle 1s linear forwards;
-          animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorGoogle 1s linear forwards;
+  -webkit-animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorGithub 1s linear forwards;
+          animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorGithub 1s linear forwards;
 }
 .google:hover .social {
   color: #dd4b39;
@@ -382,14 +382,14 @@ body .footer .content > div .image {
 .pinterest:hover .social {
   color: #cb2027;
 }
-.linkedin:hover .circle {
+.discord:hover .circle {
   fill: #000000;
   fill-opacity: 1;
-  -webkit-animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorLinkedin 1s linear forwards;
-          animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorLinkedin 1s linear forwards;
+  -webkit-animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorDiscord 1s linear forwards;
+          animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards, colorDiscord 1s linear forwards;
 }
-.linkedin:hover .social {
-  color: #007bb6;
+.discord:hover .social {
+  color: #5865F2;
 }
 @-webkit-keyframes colorTwitter {
   from {
@@ -423,20 +423,20 @@ body .footer .content > div .image {
     stroke: #3b5998;
   }
 }
-@-webkit-keyframes colorGoogle {
+@-webkit-keyframes colorGithub {
   from {
     stroke: #ffffff;
   }
   to {
-    stroke: #dd4b39;
+    stroke: #464242;
   }
 }
-@keyframes colorGoogle {
+@keyframes colorGithub {
   from {
     stroke: #ffffff;
   }
   to {
-    stroke: #dd4b39;
+    stroke: #464242;
   }
 }
 @-webkit-keyframes colorPinterest {
@@ -455,20 +455,20 @@ body .footer .content > div .image {
     stroke: #cb2027;
   }
 }
-@-webkit-keyframes colorLinkedin {
+@-webkit-keyframes colorDiscord {
   from {
     stroke: #ffffff;
   }
   to {
-    stroke: #007bb6;
+    stroke: #5865F2;
   }
 }
-@keyframes colorLinkedin {
+@keyframes colorDiscord {
   from {
     stroke: #ffffff;
   }
   to {
-    stroke: #007bb6;
+    stroke: #5865F2;
   }
 }
 @-webkit-keyframes outWaveIn {
