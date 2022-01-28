@@ -24,7 +24,7 @@ body {
 }
 
 .bgimg {
-  background-image: url('https://wallpaperaccess.com/full/5485870.png');
+  background-color: #333;
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -34,6 +34,13 @@ body {
   max-width: 42em;
 }
 
+/* TODO: make that columns background to be white not transparent. */
+#id{
+  background-color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
 
 /*
  * Header
