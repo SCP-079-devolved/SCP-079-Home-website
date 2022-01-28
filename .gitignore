@@ -2,4 +2,5 @@ workspace.code-workspace
 # cover.html
 passwords.json
 launch.json
+.vs
 # donations.html
