@@ -1,5 +1,5 @@
 .bgimg {
-  background-color: aqua;
+  background-color: burlywood;
   min-height: 100%;
     background-position: center;
     background-size: cover;
@@ -9,3 +9,47 @@
     top: 100px;
 
   }
+  .heading {
+    font-family: 'Times New Roman', Times, serif
+    bold
+  }
+.box {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  width: 250px;
+  text-align: center;
+  border-radius: 13px;
+
+}
+::placeholder{
+  color:white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.button{
+  border-radius: 11px;
+}
+input[type=email] {
+  background-color: #1A2226;
+  border: none;
+  border-bottom: 3px solid #0DB8DE;
+  border-top: 0px;
+  border-radius: 15px;
+  font-weight: bold;
+  outline: 0;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  color: #ECF0F5;
+}
+
+input[type=password] {
+  background-color: #1A2226;
+  border: none;
+  border-bottom: 3px solid #0DB8DE;
+  border-top: 0px;
+  border-radius: 15px;
+  font-weight: bold;
+  outline: 0;
+  padding-left: 0px;
+  margin-bottom: 20px;
+  color: #ECF0F5;
+}

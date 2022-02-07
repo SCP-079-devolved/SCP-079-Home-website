@@ -17,16 +17,22 @@
  <center>
      <br></br><br></br>
     <div class="formContainer">
-    <h1>Enter Credentials Here:</h1>
-    <input type="email" placeholder="email here" id="email"><br>
-    <input type="password" placeholder="password here" id="password"><br>
-    <button onclick="signUp()" id="signUp">SignUp</button>
-    <button onclick="signIn()" id="signIp">SignIn</button>
-    <button onclick="signOut()" id="signOut">SignOut</button>
+    <h1 class="heading">Enter Credentials Here:</h1>
+    <br><br>
+    <input type="email" class= "box" placeholder="Enter your email address" id="email"><br><br>
+    <input type="password" class="box" placeholder="Enter your password" id="password"><br><br>
+    <button onclick="signIn()" id="signIp"  class="btn btn-primary btn-lg">SignIn</button><br><br>
+    <div class="row align-items-center">
+        <div class="col">
+            <button onclick="signUp()" id="signUp" class="btn btn-primary btn-sm">SignUp</button> 
+        </div>
+    
+        <div class="col">
+            <button onclick="signOut()" id="signOut"  class="btn btn-primary btn-sm">SignOut</button>
+        </div>
+      </div>
+    </div>
 </center>
-</div>
-
-
 
 </body>
 </html>
