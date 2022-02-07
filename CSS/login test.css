@@ -1,3 +1,6 @@
-.bgimg{
-background-color: aqua;
-}
+.bgimg {
+    background-image: url('https://wallpaperaccess.com/full/5485870.png%27');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+  }
