@@ -13,14 +13,7 @@
     font-family: 'Times New Roman', Times, serif
     bold
   }
-.box {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: white;
-  width: 250px;
-  text-align: center;
-  border-radius: 13px;
 
-}
 ::placeholder{
   color:white;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -52,4 +45,12 @@ input[type=password] {
   padding-left: 0px;
   margin-bottom: 20px;
   color: #ECF0F5;
+}
+.box {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  width: 250px;
+  text-align: center;
+  border-radius: 13px;
+
 }
