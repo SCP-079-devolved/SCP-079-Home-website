@@ -41,9 +41,12 @@ var firebaseConfig = {
     alert("SignOut Successfully from System");
   }
 
+  var i = 0;
+
   //active user to homepage
   firebase.auth().onAuthStateChanged((user)=>{
     if(user){
+      var i = 1;
       var email = user.email;
       alert("Active user "+email);
 
