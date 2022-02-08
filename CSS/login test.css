@@ -56,9 +56,12 @@
   }
 
   #success{
-    resize: horizontal;
     overflow: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #failed{
+    overflow: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
   }
 
   .nav-masthead .nav-link {
