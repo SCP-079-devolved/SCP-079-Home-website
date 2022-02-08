@@ -17,20 +17,25 @@ function signed_out() {
   var login = document.getElementById("login");
   var signedin = document.getElementById("signedin");
   var success_msg = document.getElementById("success");
+  var failed = document.getElementById("failed");
 
   signedin.style.display = "none";
   login.style.display = "block";
 
   success_msg.style.display = "none";
+  failed.style.display = "none";
 }
 
 function signed_in() {
   var login = document.getElementById("login");
   var signedin = document.getElementById("signedin");
+  var signedin_success = document.getElementById("success_signin");
 
 
   signedin.style.display = "block";
   login.style.display = "none";
+  signedin_success.style.display = "block";
+  
 }
 
 
@@ -52,7 +57,6 @@ function signIn() {
   const promise = auth.signInWithEmailAndPassword(email.value, password.value);
   promise.catch(e => alert(e.message));
 
-  document.getElementById("user_email").innerHTML = email.value;
 
   var success_msg = document.getElementById("success");
   success_msg.style.display = "block";

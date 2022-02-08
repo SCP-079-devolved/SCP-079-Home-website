@@ -59,6 +59,10 @@
     overflow: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+  #success_signin{
+    overflow: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
   #failed{
     overflow: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  

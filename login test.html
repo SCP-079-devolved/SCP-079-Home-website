@@ -31,26 +31,11 @@
                         <div class="row align-items-center">
 
                             <div class="p-3 mb-2 mh-50 bg-success text-white" id="success">
-
-                        </div>
-                        <div class="p-3 mb-2 bg-danger text-white" id="failed">
-                            <p class="signin"> Signed in failed</p>
-
-
-                    </div>
-                        <center>
-                            <button onclick="signIn()" id="signIp"
-                                class="btn btn-primary btn-lg">SignIn</button><br><br>
-
-                           <p class="signup">Don't have an account? sign up now!</p>
-                     <button onclick="signUp()" id="signUp" class="btn btn-outline-primary">SignUp</button>
-                    </center>
-
+                                <p class="signin"> Searching the Database...</p>
                             </div>
 
-
-                            <div class="p-3 mb-2 bg-danger text-white" id="success">
-                                <p class="signin"> Sign in failed, Error is:</p>
+                            <div class="p-3 mb-2 bg-danger text-white" id="failed">
+                                <p class="signin"> Signed in failed</p>
                             </div>
 
                             <center>
@@ -62,12 +47,10 @@
                             </center>
 
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         </div>
     </center>
@@ -88,6 +71,13 @@
         </header>
         <button onclick="signOut()" id="signOut" class="btn btn-outline-primary">SignOut</button>
 
+        <p>
+            &nbsp;
+            &nbsp;
+        </p>
+        <div class="p-3 mb-2 mh-50 bg-success text-white" id="success_signin">
+            <p class="signin"> Successfully signed in!</p>
+        </div>
 
     </div>
 
