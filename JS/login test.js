@@ -24,10 +24,10 @@ function signed_out() {
   success_msg.style.display = "none";
 }
 
-function signed_in() {
+function signed_in(){
   var login = document.getElementById("login");
   var signedin = document.getElementById("signedin");
-
+  
 
   signedin.style.display = "block";
   login.style.display = "none";
@@ -53,30 +53,7 @@ function signIn() {
   const promise = auth.signInWithEmailAndPassword(email.value, password.value);
   promise.catch(e => alert(e.message));
 
-  try {
-    final user = await _auth.signInWithEmailAndPassword(
-    email: email, password: password);
-    if (user != null) {
-      Navigator.pushNamed(context, HomeScreen.id);
-    }
-  } on auth.FirebaseAuthException catch (e) {
-    //Here you catch the specific error 
-    if (e.code == 'wrong-password') {
-      //The thing that should happen if the password is incorrect
-      //In my case it will the change the hinttext  
-      setState(() {
-        hintTextPassword = 'Password incorrect. Please try again';
-        passwordHintColor = Colors.red;
-      });
-    } else if (e.code == 'user-not-found') {
-      setState(() {
-        hintTextEmail = 'No user found for that email.';
-        emailHintColor = Colors.red;
-      });
-    }
-  } catch (e) {
-    print(e);
-  }
+    
 
   var success_msg = document.getElementById("success");
   success_msg.style.display = "block";
