@@ -16,14 +16,18 @@ const auth = firebase.auth();
 function signed_out() {
   var login = document.getElementById("login");
   var signedin = document.getElementById("signedin");
+  var success_msg = document.getElementById("success");
 
   signedin.style.display = "none";
   login.style.display = "block";
+
+  success_msg.style.display = "none";
 }
 
 function signed_in(){
   var login = document.getElementById("login");
   var signedin = document.getElementById("signedin");
+  
 
   signedin.style.display = "block";
   login.style.display = "none";
@@ -39,7 +43,7 @@ function signUp() {
   const promise = auth.createUserWithEmailAndPassword(email.value, password.value);
   //
   promise.catch(e => alert(e.message));
-  alert("SignUp Successfully");
+  //alert("Signed Up Successfully");
 }
 
 //signIN function
@@ -49,6 +53,8 @@ function signIn() {
   const promise = auth.signInWithEmailAndPassword(email.value, password.value);
   promise.catch(e => alert(e.message));
 
+  var success_msg = document.getElementById("success");
+  success_msg.style.display = "block";
 }
 
 
@@ -56,18 +62,17 @@ function signIn() {
 
 function signOut() {
   auth.signOut();
-  alert("SignOut Successfully from System");
+  //alert("Signed Out Successfully from System");
 }
 
 //active user to homepage
 firebase.auth().onAuthStateChanged((user) => {
   if (user) {
     var email = user.email;
-    alert("Active user " + email);
-
+    //alert("Active user " + email);
     signed_in();
   } else {
-    alert("No Active user Found")
     signed_out();
+    //alert("No Active user Found")
   }
 })

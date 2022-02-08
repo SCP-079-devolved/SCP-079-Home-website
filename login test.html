@@ -10,8 +10,8 @@
     <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
     <script src="JS\login test.js"></script>
 
-    <link href="CSS\login test.css" rel="stylesheet">
     <link href="CSS\bootstrap.min.css" rel="stylesheet">
+    <link href="CSS\login test.css" rel="stylesheet">
     <title>Login System</title>
 </head>
 
@@ -26,11 +26,14 @@
             <div class="row align-items-center">
                 <div class="col">
 
-                    <button onclick="signIn()" id="signIp" class="btn btn-primary btn-lg">SignIn</button><br><br>
+                    <!-- <button onclick="signIn()" id="signIp" class="btn btn-primary btn-lg">SignIn</button><br><br> -->
 
                     <div class="row align-items-center">
+
+                        <div class="p-3 mb-2 mh-50 bg-success text-white" id="success">.bg-success</div>
                         <div class="col">
-                            <button onclick="signOut()" id="signOut" class="btn btn-outline-primary">SignOut</button>
+                            <button onclick="signIn()" id="signIp"
+                                class="btn btn-primary btn-lg">SignIn</button><br><br>
                         </div>
 
                         <div class="col">
@@ -42,7 +45,21 @@
         </div>
     </center>
     <div class="container-fluid" id="signedin">
-        <h1> yesesyeyseysefs</h1>
+        <header class="mb-auto">
+            <div>
+                <h3 class="text-white" , class="float-md-start mb-0"> <img
+                        src="https://cdn.discordapp.com/attachments/807528322544304148/925573163302133830/SCP-079.png"
+                        width="70" height="70" /> SCP-079</h3>
+                <h3 class="float-md-end mb-0"> <button onclick="signOut()" id="signOut" class="btn btn-outline-primary">SignOut</button></h3>
+                <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="donations.html">Donations</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="about.html">About Us</a>
+                    <a class="nav-link" href="#">Contact</a>
+                </nav>
+            </div>
+        </header>
         <button onclick="signOut()" id="signOut" class="btn btn-outline-primary">SignOut</button>
     </div>
 
