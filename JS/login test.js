@@ -24,15 +24,14 @@ function signed_out() {
   success_msg.style.display = "none";
 }
 
-function signed_in(){
+function signed_in() {
   var login = document.getElementById("login");
   var signedin = document.getElementById("signedin");
-  
+
 
   signedin.style.display = "block";
   login.style.display = "none";
 }
-
 
 
 //signup function
@@ -53,10 +52,11 @@ function signIn() {
   const promise = auth.signInWithEmailAndPassword(email.value, password.value);
   promise.catch(e => alert(e.message));
 
-    
+  document.getElementById("user_email").innerHTML = email.value;
 
   var success_msg = document.getElementById("success");
   success_msg.style.display = "block";
+
 }
 
 
